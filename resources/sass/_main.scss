@@ -1,0 +1,42 @@
+.card--resizable {
+
+	.card-header__index {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+
+		h4 {
+			font-size: .875rem;
+			font-weight: 600;
+		}
+
+		.control-group {
+			display: flex;
+			justify-content: space-between;
+			flex-basis: 40px;
+			align-items: center;
+			font-size: .875rem;
+
+			i:hover {
+				cursor: pointer;
+			}
+		}
+	}
+}
+
+.card-fullscreen {
+	display: block;
+	z-index: 9999;
+	position: fixed;
+	width: 100% !important;
+	height: 100% !important;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	overflow: auto;
+}
+
+.button-primary {
+	font-size: .875rem;
+}
