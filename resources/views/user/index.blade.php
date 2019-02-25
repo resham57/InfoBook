@@ -23,6 +23,13 @@
 
 @section('js')
 	<script src="{{ asset('js/iziToast.min.js') }}"></script>
+	<script>
+		$(document).ready( function () {
+		    $('#listTable').DataTable({
+		    	responsive: true
+		    });
+		});
+	</script>
 	@if (session('status'))
 	    <script>
 	    	$(function(){
